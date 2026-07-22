@@ -258,7 +258,7 @@ If all tags exist, nonExistentTag will be empty.
 
 tagNames[0] should preferably be a tag with a low len(AssociatedNodes) for (potentially significantly) enhanced performance. (TODO: optimize)
 */
-func (self *Querier) Select_AllNodesWithTags(tagNames []string) (nodes []string, nonExistentTag string) { // TODO
+func (self *Querier) Select_AllNodesWithTags(tagNames []string) (nodes []string, nonExistentTag string) {
 	if len(tagNames) == 0 {
 		return []string{}, ""
 	}

@@ -11,7 +11,7 @@ You can find latest binaries & installers for Linux at [https://dl.solidapo.de/L
 If you prefer compiling yourself, you will need [the Go programming language](https://go.dev/).
 Simply run `go install codeberg.org/SolidApo/lisdb@latest` in your command line, 
 or clone this repo and run `make && sudo make install`, and you're set!
-The Makefile also contains targets to build various packages.
+The Makefile also contains targets to build .deb packages.
 
 ## What data model does LisDB follow?
 
